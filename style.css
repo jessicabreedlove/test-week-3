@@ -1,0 +1,136 @@
+/* Body -- whole page */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C7647B;
+}
+
+/* Header -- top of page */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0 2%
+}
+
+#logo {
+    padding-bottom: 10px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+/* Main - center of page - out actual content */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#moms-image{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Aside */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    /* padding-bottom: 5px; */
+    text-align: center;
+    background-color: #06b0b6;
+    
+}
+
+.sidebar-accent {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #333;
+    width: 85%;
+  }
+  
+.sidebar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 85%;
+    border-bottom: 4px solid black;
+}
+
+.sidebar-tagline {
+    font-size: 1rem;
+    line-height: 25px;
+    color: #333;
+}
+
+
+.sidebar-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C7647B;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.sidebar-btn i {
+    color: #ffffff;
+}
+
+/* Footer -- bottom of page */
+
+footer {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 40px solid #4E1A3D;
+  }
+  
+.icons-flex {
+    display: flex;
+}
+    
+.square{
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  
+.square:hover {
+    color: #C7647B;
+  }
+
+
